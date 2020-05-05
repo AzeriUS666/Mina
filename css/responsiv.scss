@@ -1,0 +1,38 @@
+// Экстрамалые девайсы («телефоны», < 576px)
+// Нет @media, т.к. это по умолчанию в Bootstrap
+
+// Малые девайсы («ландшафтные телефоны», >= 576px)
+@media (max-width: 576px) {
+}
+
+// Средние девайсы («таблетки», >= 768px)
+@media (max-width: 768px) { 
+
+	.main{
+		display: flex;
+    flex-wrap: wrap;	
+		.mainhead{
+			width: auto;
+			height: auto;		
+		}
+		.mainbody{
+			width: auto;
+			height: auto;
+			display: flex;
+			flex-wrap: wrap;	
+				
+			.mainbodyleft{
+				margin: auto;
+
+			}
+			.mainbodyright{
+				margin: auto;
+			}
+		}
+	}
+
+
+
+ }
+
+

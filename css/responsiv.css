@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main .mainhead {
+    width: auto;
+    height: auto;
+  }
+  .main .mainbody {
+    width: auto;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main .mainbody .mainbodyleft {
+    margin: auto;
+  }
+  .main .mainbody .mainbodyright {
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=responsiv.css.map */
